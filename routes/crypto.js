@@ -26,7 +26,7 @@ router.get('/allTypes', function(req, res, next) {
   })
 });
 
-/* POST top 100 cryto types */
+/* POST exchange cryto*/
 router.post('/exchange', function(req, res, next) {
   const body = req.body;
   // axios.get(`https://api.coingecko.com/api/v3/coins/${body.id}?x-cg-pro-api-key=CG-i6Fcc8ptbRnrTEsJR6mRP6Tq`)
